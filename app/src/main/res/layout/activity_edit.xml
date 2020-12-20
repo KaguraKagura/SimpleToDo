@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".EditActivity">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/update_the_task"
+            android:ems="10"
+            android:id="@+id/editTask" android:hint="@string/update_a_task" android:autofillHints="update"/>
+    <Button
+            android:text="@string/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/saveBtn" android:layout_marginTop="23dp"
+            android:layout_below="@+id/editTask" android:layout_marginEnd="27dp" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

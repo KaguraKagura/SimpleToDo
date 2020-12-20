@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SimpleToDo</string>
+    <string name="addTask">Add A Task</string>
+    <string name="prompt">Input a task then press enter:</string>
+    <string name="update_the_task">Update the task</string>
+    <string name="update_a_task">Update a task</string>
+    <string name="save">Save</string>
+</resources>
