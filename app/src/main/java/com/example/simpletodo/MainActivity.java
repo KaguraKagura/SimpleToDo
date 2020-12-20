@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClicked(int position) {
                 Intent intent = new Intent(MainActivity.this, EditActivity.class);
                 intent.putExtra(KEY_ITEM_TEXT, tasks.get(position));
-                intent.putExtra(KEY_ITEM_POSITION, tasks.get(position));
+                intent.putExtra(KEY_ITEM_POSITION, position);
                 startActivityForResult(intent, EDIT_TEXT_CODE);
 
             }
